@@ -7,6 +7,6 @@ full = len([x for x in age if x >= 25])*1390 #Цена для лиц от 25 л�
 price = free + full + discount 
 if numbers > 3: #Скидка 10% если больше 3 билетов
     sales = int(price - price*0.1)
-    print("Сумма к оплате:" ,sales)
+    print("Сумма к оплате со скидкой 10% :" ,sales)
 else: 
     print("Сумма к оплате:" ,price)
