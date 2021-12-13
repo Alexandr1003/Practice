@@ -1,4 +1,4 @@
-`array = [i for i in range(1,100)] # 1,2,3,4,..
+array = [i for i in range(1,100)] # 1,2,3,4,..
 element = int(input("Введите число:"))
 
 if element not in array:
