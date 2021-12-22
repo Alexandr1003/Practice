@@ -28,4 +28,4 @@ array = sort_array(array)
 
 print(array)
 
-print(binary_search(array, element, 0, 99) + 1)
+print(binary_search(array, element, 0, 99)-1)
